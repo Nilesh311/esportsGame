@@ -20,6 +20,19 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+/* Media queries for different screen sizes */
+@media only screen and (max-width: 768px) {
+  .bg {
+    background-size: contain; /* Adjust for mobile devices */
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .bg {
+    background-size: contain; /* Adjust for smaller mobile devices */
+  }
+}
 </style>
 </head>
 <body>
